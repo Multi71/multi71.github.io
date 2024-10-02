@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "bodyfont";
+  src: url("https://cdn.glitch.com/a0973d0b-27f9-445b-92c6-5e606be37900%2Fcommando.ttf?v=1583364680199");
+  
+}
+
+
+@font-face {
+ font-family: "headfont";
+  src: url("https://cdn.glitch.com/a0973d0b-27f9-445b-92c6-5e606be37900%2Fcommando.ttf?v=1583364680199");
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: rgb(143, 142, 142);
+    margin: 0;
+}
+
+.odometer {
+  font-size: 32px;
+  font-family : headfont;
+  width: 170px;
+  text-align: center;
+  color: #000000
+   transition: color 2s;
+}
+
+.channelImage {
+  border-radius: -100%;
+  height: 70x;
+  width: 75px;
+ float: left;
+ margin-right: 10px;
+ border: 20px;
+ 
+}
+
+.channelName {
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'commando';
+  font-size: 16px;
+background-position: 16px;
+text-align: center;
+}
+
+.card-content {
+
+  padding: 2%;
+}
+
+
+.card {
+  display:inline-block;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  font-size: 20px;
+  width: 315px;
+  border: 2px solid rgb(0, 0, 153);
+  border-radius: 2px;
+   transition: color 2s;
+}
+
+
+
+
+
+
