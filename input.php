@@ -1,6 +1,6 @@
 ﻿﻿﻿﻿<?php
 
-$no_of_channels = 18;
+$no_of_channels = 5;
 
 $myFile = "channels.json";
  
